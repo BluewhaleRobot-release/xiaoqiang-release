@@ -1,0 +1,12 @@
+Source: ros-kinetic-xiaoqiang
+Section: misc
+Priority: extra
+Maintainer: Randoms <randoms@randoms.me>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://www.bwbot.org/content/xiaoqiang
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xiaoqiang
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-xiaoqiang-description
+Description: Drivers, description, and utilities for xiaoqiang.
