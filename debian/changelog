@@ -1,0 +1,18 @@
+ros-kinetic-xiaoqiang-monitor (0.0.5-0jessie) jessie; urgency=high
+
+
+
+ -- Randoms <randoms@bwbot.org>  Tue, 29 May 2018 16:00:00 -0000
+
+ros-kinetic-xiaoqiang-monitor (0.0.3-0jessie) jessie; urgency=high
+
+  * add controller
+  * refactor
+  * update readme
+  * add xiaoqiang server
+  * add many packages
+  * Contributors: xiaoqiang
+
+ -- Randoms <randoms@bwbot.org>  Mon, 28 May 2018 16:00:00 -0000
+
+
