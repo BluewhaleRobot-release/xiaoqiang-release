@@ -1,0 +1,12 @@
+Source: ros-kinetic-xiaoqiang-driver
+Section: misc
+Priority: extra
+Maintainer: Xie fusheng <xiefs@foxmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, setserial
+Homepage: http://www.bwbot.org/content/xiaoqiang
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xiaoqiang-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, setserial
+Description: The xiaoqiang driver package
