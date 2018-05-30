@@ -1,38 +1,29 @@
-# xiaoqiang_udrf
-    xiaoqiang urdf model files
-    
-## input topic
-    none
-## output topic
-      name                        type
-    /joint_states        sensor_msgs/JointState
-    /tf       base_link-->right_wheel base_link-->left_wheel base_link-->back_wheel
-## Usage:
-### download to xiaoqiang ros workspace
-```
-cd ~/Documents/ros/src
-git clone https://github.com/BlueWhaleRobot/xiaoqiang_udrf.git 
-cd ..
-catkin_make
-```
-### Quickstart    
-```
-roslaunch xiaoqiang_udrf xiaoqiang_udrf.launch
-```
-## Made with :heart: by BlueWhale Tech corp.
-    
-    
-    用于Rviz显示的小强3d模型文件。  
-## 使用方法：
-### 安装到小强ROS工作目录
-```
-cd ~/Documents/ros/src
-git clone https://github.com/BlueWhaleRobot/xiaoqiang_udrf.git 
-cd ..
-catkin_make
-```
-### 直接启动
-```
-roslaunch xiaoqiang_udrf xiaoqiang_udrf.launch
-```
-## 由蓝鲸科技精 :heart: 制作。
+# xiaoqiang
+Drivers, description, and utilities for xiaoqiang.
+
+![xiaoqiang](http://community.bwbot.org/assets/uploads/files/1490091509327-xiaoqiang.jpeg)
+
+Xiaoqiang is a ROS develop platform made by Bluewhale Robot. 
+
+## Documents
+[Xiaoqiang Manual Online](https://doc.bwbot.org/books-online/xq-manual/)
+
+[Xiaoqiang Manual Pdf](https://doc.bwbot.org/pdf/xq-manual)
+
+[Community](http://community.bwbot.org/category/7/%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1)
+
+
+## Hardware Parameters
+
+* i7-5500U Core Duo processor 1.8GHz CPU Turbo 3.0GHZ
+* 8G memory
+* 64G SSD
+* Battery: 12V 20AH, Rated current 5A, Rated power 60W.
+* 7 hours at high power usage (80% CPU usage)
+* max speed 0.8m/s
+* max acceleration 1.5m/s^2
+* max angle speed 230 deg/s
+* max angle acceleration 660 deg/s^2
+* 6 USB with four USB3.0 and two USB2.0 
+* 60fps 178° camera 
+* MPU9250 9-axis high-precision gyroscope
