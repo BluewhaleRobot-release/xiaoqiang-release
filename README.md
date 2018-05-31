@@ -1,29 +1,74 @@
-# xiaoqiang
-Drivers, description, and utilities for xiaoqiang.
+# xiaoqiang driver
+xiaoqiang motor drivers
 
-![xiaoqiang](http://community.bwbot.org/assets/uploads/files/1490091509327-xiaoqiang.jpeg)
+## input topic
+|name|type|description|
+|:--|:--|:--|
+|cmd_vel|geometry_msgs/Twist|robot velocity|
+|infrared_sensor|std_msgs/Bool|infrared sensor enable flag|
+|imu_cal|std_msgs/Bool|imu correction flag|
+|globalMoveFlag|std_msgs/Bool|if false robot will stop moving|
 
-Xiaoqiang is a ROS develop platform made by Bluewhale Robot. 
+## output topic
+|name|type|rate|description|
+|:--|:--|:--|:--|
+|odom|nav_msgs/Odometry|50hz|robot odometry|
+|pose2d|geometry_msgs/Pose2D|50hz|robot pose2d|
+|power|std_msgs/Float64|50hz|robot battery voltage|
+|infrared_sensor|std_msgs/Int32|50hz|infrared sensor status|
+|twist|geometry_msgs/Twist|50hz|robot current twist|
+|bar_points|sensor_msgs/PointCloud2|None|objects detected by infrared sensor|
+|clear_points|sensor_msgs/PointCloud2|None|no object at target points|
 
-## Documents
-[Xiaoqiang Manual Online](https://doc.bwbot.org/books-online/xq-manual/)
+## published tf transformation
+|name|relation|rate|description|
+|:--|:--|:--|:--|
+|tf|odom-->base_footprint|50hz|robot tf transform|
+|tf_static|base_footprint-->base_link|100hz|robot tf transform|
 
-[Xiaoqiang Manual Pdf](https://doc.bwbot.org/pdf/xq-manual)
+## input param
 
-[Community](http://community.bwbot.org/category/7/%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1)
+|name|default|description|
+|:--|:--|:--|
+|port|/dev/xiaoqiang|xiaoqiang serial port|
+|baud|115200|serial port baud rate|
+|wheel_separation|0.37|distance between two wheels|
+|wheel_radius|0.06|radius of the wheel|
+|debug_flag|false|debug flag|
+|max_speed|2.0|max speed of the robot|
+|cmd_topic|cmd_vel|topic name to send velocity to|
 
 
-## Hardware Parameters
+## Usage:
+### download to your ros workspace
+```bash
+cd [to your workspace]
+git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
+cd ..
+catkin_make
+```
+### Quickstart
+```bash
+roslaunch xiaoqiang_driver xiaoqiang_driver.launch
+```
 
-* i7-5500U Core Duo processor 1.8GHz CPU Turbo 3.0GHZ
-* 8G memory
-* 64G SSD
-* Battery: 12V 20AH, Rated current 5A, Rated power 60W.
-* 7 hours at high power usage (80% CPU usage)
-* max speed 0.8m/s
-* max acceleration 1.5m/s^2
-* max angle speed 230 deg/s
-* max angle acceleration 660 deg/s^2
-* 6 USB with four USB3.0 and two USB2.0 
-* 60fps 178° camera 
-* MPU9250 9-axis high-precision gyroscope
+## Made with :heart: by BlueWhale Robot.
+
+
+小强各底盘驱动
+## 使用方法
+#### 安装到小强ROS工作目录
+
+```bash
+cd [到你的工作空间]
+git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
+cd ..
+catkin_make
+```
+### 直接启动
+
+```bash
+roslaunch xiaoqiang_driver xiaoqiang_driver.launch
+```
+
+## 由蓝鲸机器人精 :heart: 制作。
