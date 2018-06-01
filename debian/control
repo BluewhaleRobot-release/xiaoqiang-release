@@ -1,0 +1,12 @@
+Source: ros-kinetic-xiaoqiang-msgs
+Section: misc
+Priority: extra
+Maintainer: Randoms <randoms@bwbot.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: http://www.bwbot.org/content/xiaoqiang
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xiaoqiang-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-generation, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: Messages used by xiaoqiang
