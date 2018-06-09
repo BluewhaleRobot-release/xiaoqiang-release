@@ -1,58 +1,29 @@
-# xiaoqiang_urdf
+# xiaoqiang
+Drivers, description, and utilities for xiaoqiang.
 
-xiaoqiang urdf model files
+![xiaoqiang](http://community.bwbot.org/assets/uploads/files/1490091509327-xiaoqiang.jpeg)
 
-## input topic
+Xiaoqiang is a ROS develop platform made by Bluewhale Robot. 
 
-none
+## Documents
+[Xiaoqiang Manual Online](https://doc.bwbot.org/books-online/xq-manual/)
 
-## output topic
-|name|type|
-|:--|:--|
-|/joint_states|sensor_msgs/JointState|
+[Xiaoqiang Manual Pdf](https://doc.bwbot.org/pdf/xq-manual)
 
-## published tf transformation
-
-|name|type|
-|:--|:--|
-|/tf|base_link-->right_wheel base_link-->left_wheel|
-|/tf|base_link-->back_wheel|
-
-## Usage:
-
-### download to xiaoqiang ros workspace
-
-```bash
-cd [to your workspace]
-git clone https://github.com/BlueWhaleRobot/xiaoqiang.git 
-cd ..
-catkin_make
-```
-
-### Quickstart    
-
-```bash
-roslaunch xiaoqiang_description xiaoqiang_model.launch
-```
-## Made with :heart: by BlueWhale Tech corp.
+[Community](http://community.bwbot.org/category/7/%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1)
 
 
-小强的模型相关文件
+## Hardware Parameters
 
-## 使用方法：
-### 安装到小强ROS工作目录
-
-```bash
-cd [到你的工作空间]
-git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
-cd ..
-catkin_make
-```
-
-### 直接启动
-
-```bash
-roslaunch xiaoqiang_description xiaoqiang_model.launch
-```
-
-## 由蓝鲸机器人精 :heart: 制作。
+* i7-5500U Core Duo processor 1.8GHz CPU Turbo 3.0GHZ
+* 8G memory
+* 64G SSD
+* Battery: 12V 20AH, Rated current 5A, Rated power 60W.
+* 7 hours at high power usage (80% CPU usage)
+* max speed 0.8m/s
+* max acceleration 1.5m/s^2
+* max angle speed 230 deg/s
+* max angle acceleration 660 deg/s^2
+* 6 USB with four USB3.0 and two USB2.0 
+* 60fps 178° camera 
+* MPU9250 9-axis high-precision gyroscope
