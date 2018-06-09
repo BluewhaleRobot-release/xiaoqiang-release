@@ -1,0 +1,12 @@
+Source: ros-kinetic-xiaoqiang-navigation
+Section: misc
+Priority: extra
+Maintainer: Randoms <randoms@bwbot.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/xiaoqiang_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xiaoqiang-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-addwa-local-planner, ros-kinetic-xiaoqiang-navigation-example
+Description: xiaoqiang navigaion related
