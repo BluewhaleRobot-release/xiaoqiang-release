@@ -2,17 +2,12 @@
 Changelog for package xiaoqiang_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.7 (2018-06-01)
-------------------
+0.0.10 (2018-06-09)
+-------------------
+* add navigation and add fix depth image dependency
+* Contributors: xiaoqiang
 
-0.0.6 (2018-05-31)
+0.0.8 (2018-06-06)
 ------------------
-
-0.0.5 (2018-05-30)
-------------------
-
-0.0.3 (2018-05-29)
-------------------
-* add freenect
-* add navigation and freenect
+* add xiaoqiang navigation
 * Contributors: xiaoqiang
