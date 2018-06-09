@@ -2,6 +2,20 @@
 Changelog for package xiaoqiang
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.10 (2018-06-09)
+-------------------
+
+0.0.9 (2018-06-07)
+------------------
+* remove navigation from package
+* add navigation
+* Contributors: xiaoqiang
+
+0.0.8 (2018-06-06)
+------------------
+* add depth image process
+* Contributors: xiaoqiang
+
 0.0.7 (2018-06-01)
 ------------------
 

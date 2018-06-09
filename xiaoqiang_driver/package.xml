@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>xiaoqiang_driver</name>
-  <version>0.0.7</version>
+  <version>0.0.10</version>
   <description>The xiaoqiang driver package</description>
   <license>MIT</license>
 
+  <author email="xiefs@foxmail.com">Xie fusheng</author>
   <maintainer email="xiefs@foxmail.com">Xie fusheng</maintainer>
   <maintainer email="randoms@bwbot.org">Randoms</maintainer>
   <url type="bugtracker">https://github.com/bluewhalerobot/xiaoqiang/issues</url>

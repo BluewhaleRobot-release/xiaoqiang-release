@@ -1,6 +1,6 @@
 <package format="2">
   <name>xiaoqiang</name>
-  <version>0.0.7</version>
+  <version>0.0.10</version>
   <description>
       Drivers, description, and utilities for xiaoqiang.
   </description>
@@ -18,7 +18,7 @@
   <exec_depend>xiaoqiang_freenect</exec_depend>
   <exec_depend>xiaoqiang_monitor</exec_depend>
   <exec_depend>xiaoqiang_msgs</exec_depend>
-  <exec_depend>xiaoqiang_navigation</exec_depend>
+  <!-- <exec_depend>xiaoqiang_navigation</exec_depend> -->
   <exec_depend>xiaoqiang_server</exec_depend>
   <!-- <exec_depend>xiaoqiang_example</exec_depend> -->
   <!-- <exec_depend>xiaoqiang_slam</exec_depend> -->
