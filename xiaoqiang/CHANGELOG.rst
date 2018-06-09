@@ -2,6 +2,9 @@
 Changelog for package xiaoqiang
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.10 (2018-06-09)
+-------------------
+
 0.0.9 (2018-06-07)
 ------------------
 * remove navigation from package
