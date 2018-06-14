@@ -1,58 +1,29 @@
-# startup
+# xiaoqiang
+Drivers, description, and utilities for xiaoqiang.
 
-xiaoqiang launch file package, including launch files to start many devices
+![xiaoqiang](http://community.bwbot.org/assets/uploads/files/1490091509327-xiaoqiang.jpeg)
 
-## Usage:
-### download to xiaoqiang ros workspace
-```
-cd [to your workspace]
-git clone https://github.com/BluewhaleRobot/xiaoqiang.git
-cd ..
-catkin_make
-```   
-### Install this service into system, service name is startup
-```
-rosrun robot_upstart install xiaoqiang_bringup/launch/xiaoqiang_robot.launch
-```
-### Uninstall this service
-```
-rosrun robot_upstart uninstall xiaoqiang_robot
-```
-### start this service manually
-```
-sudo service xiaoqiang_robot start
-```
-### stop this service
-```
-sudo service xiaoqiang_robot stop
-```
-## Made with :heart: by Bluewhale Robot.
+Xiaoqiang is a ROS develop platform made by Bluewhale Robot. 
+
+## Documents
+[Xiaoqiang Manual Online](https://doc.bwbot.org/books-online/xq-manual/)
+
+[Xiaoqiang Manual Pdf](https://doc.bwbot.org/pdf/xq-manual)
+
+[Community](http://community.bwbot.org/category/7/%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1)
 
 
-小强启动文件包，包含了小强启动各种硬件的launch文件
+## Hardware Parameters
 
-## 使用方法:
-### 首先将软件包下载到小强ROS工作目录
-```
-cd [到你的工作空间]
-git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
-cd ..
-catkin_make
-```   
-### 将软件包中的开机启动服务注册到系统
-```
-rosrun robot_upstart install xiaoqiang_bringup/launch/xiaoqiang_robot.launch
-```
-### 移除startup服务
-```
-rosrun robot_upstart uninstall xiaoqiang_robot
-```
-### 开启startup服务
-```
-sudo service xiaoqiang_robot start
-```
-### 关闭startup服务
-```
-sudo service xiaoqiang_robot stop
-```
-## 由蓝鲸机器人精 :heart: 制作。
+* i7-5500U Core Duo processor 1.8GHz CPU Turbo 3.0GHZ
+* 8G memory
+* 64G SSD
+* Battery: 12V 20AH, Rated current 5A, Rated power 60W.
+* 7 hours at high power usage (80% CPU usage)
+* max speed 0.8m/s
+* max acceleration 1.5m/s^2
+* max angle speed 230 deg/s
+* max angle acceleration 660 deg/s^2
+* 6 USB with four USB3.0 and two USB2.0 
+* 60fps 178° camera 
+* MPU9250 9-axis high-precision gyroscope
