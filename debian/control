@@ -1,0 +1,12 @@
+Source: ros-kinetic-xiaoqiang-controller
+Section: misc
+Priority: extra
+Maintainer: Randoms <randoms@bwbot.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-xiaoqiang-driver
+Homepage: http://www.bwbot.org/content/xiaoqiang
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xiaoqiang-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-xiaoqiang-driver
+Description: xiaoqiang controller package, use terminal to move xiaoqiang around
