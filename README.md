@@ -1,3 +1,41 @@
+## xiaoqiang (kinetic) - 0.0.12-0
+
+The packages in the `xiaoqiang` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release xiaoqiang --track kinetic --rosdistro kinetic` on `Thu, 14 Jun 2018 06:23:41 -0000`
+
+These packages were released:
+- `addwa_local_planner`
+- `xiaoqiang`
+- `xiaoqiang_bringup`
+- `xiaoqiang_controller`
+- `xiaoqiang_depth_image_proc`
+- `xiaoqiang_description`
+- `xiaoqiang_driver`
+- `xiaoqiang_freenect`
+- `xiaoqiang_freenect_camera`
+- `xiaoqiang_freenect_launch`
+- `xiaoqiang_monitor`
+- `xiaoqiang_msgs`
+- `xiaoqiang_navigation`
+- `xiaoqiang_navigation_example`
+- `xiaoqiang_server`
+
+Version of package(s) in repository `xiaoqiang`:
+
+- upstream repository: https://github.com/bluewhalerobot/xiaoqiang
+- release repository: https://github.com/BluewhaleRobot-release/xiaoqiang-release.git
+- rosdistro version: `0.0.11-0`
+- old version: `0.0.11-0`
+- new version: `0.0.12-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## xiaoqiang (kinetic) - 0.0.11-0
 
 The packages in the `xiaoqiang` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release xiaoqiang --track kinetic --rosdistro kinetic` on `Thu, 14 Jun 2018 03:35:14 -0000`
