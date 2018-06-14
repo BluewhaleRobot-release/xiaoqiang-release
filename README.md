@@ -1,29 +1,33 @@
-# xiaoqiang
-Drivers, description, and utilities for xiaoqiang.
+# xiaoqiang remote controller
 
-![xiaoqiang](http://community.bwbot.org/assets/uploads/files/1490091509327-xiaoqiang.jpeg)
+## Usage:
+### download to xiaoqiang ros workspace
+```
+cd [to your workspace]
+git clone https://github.com/BluewhaleRobot/xiaoqiang.git
+cd ..
+catkin_make
+rosrun xiaoqiang_controller controller.py
+```   
 
-Xiaoqiang is a ROS develop platform made by Bluewhale Robot. 
+use arrow keys to control direction of robot
+use space to stop robot
 
-## Documents
-[Xiaoqiang Manual Online](https://doc.bwbot.org/books-online/xq-manual/)
-
-[Xiaoqiang Manual Pdf](https://doc.bwbot.org/pdf/xq-manual)
-
-[Community](http://community.bwbot.org/category/7/%E4%BA%A7%E5%93%81%E6%9C%8D%E5%8A%A1)
+## Made with :heart: by Bluewhale Robot.
 
 
-## Hardware Parameters
+小强遥控软件包
 
-* i7-5500U Core Duo processor 1.8GHz CPU Turbo 3.0GHZ
-* 8G memory
-* 64G SSD
-* Battery: 12V 20AH, Rated current 5A, Rated power 60W.
-* 7 hours at high power usage (80% CPU usage)
-* max speed 0.8m/s
-* max acceleration 1.5m/s^2
-* max angle speed 230 deg/s
-* max angle acceleration 660 deg/s^2
-* 6 USB with four USB3.0 and two USB2.0 
-* 60fps 178° camera 
-* MPU9250 9-axis high-precision gyroscope
+## 使用方法:
+### 首先将软件包下载到小强ROS工作目录
+```
+cd [到你的工作空间]
+git clone https://github.com/BlueWhaleRobot/xiaoqiang.git
+cd ..
+catkin_make
+rosrun xiaoqiang_controller controller.py
+```   
+使用方向键控制机器人运动方向
+使用空格键停止机器人
+
+## 由蓝鲸机器人精 :heart: 制作。
