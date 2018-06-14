@@ -2,6 +2,11 @@
 Changelog for package xiaoqiang_depth_image_proc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.11 (2018-06-14)
+-------------------
+* fix linking error
+* Contributors: xiaoqiang
+
 0.0.10 (2018-06-09)
 -------------------
 * add navigation and add fix depth image dependency
